@@ -1,0 +1,37 @@
+﻿<Window x:Class="CrystalSync.SettingForm.ColorSelectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ControlLib="clr-namespace:ControlLib;assembly=NumericUpDown"
+        xmlns:oniqys="http://schemas.oniqys.com/wpf/controls"
+        xmlns:CustomWPFColorPicker="clr-namespace:CustomWPFColorPicker;assembly=CustomWPFColorPicker"
+        mc:Ignorable="d"
+        Title="اعدادت اللون" Height="155" Width="258" ResizeMode="NoResize"  WindowStartupLocation="CenterOwner" ShowInTaskbar="False" Topmost="True" Loaded="Window_Loaded" >
+    <Grid Margin="5,5,5,5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="32*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="65*"/>
+                <ColumnDefinition Width="46*"/>
+            </Grid.ColumnDefinitions>
+            <ControlLib:NumericUpDown Name="maxNumber" MinValue="0" MaxValue="999999" Increment="1" FontSize="14"  Height="30" />
+
+            <Label Content="اصغر من" Grid.Column="1"/>
+            <Button  Content="حفظ" HorizontalAlignment="Left" VerticalAlignment="Top" Width="65" Margin="35,6,0,0" Click="SaveConnectionBtn_Click" Grid.Row="2" Height="22" />
+
+
+
+            <CustomWPFColorPicker:ColorPickerControlView x:Name="ForeColorPicker" Margin="-2,0,2,27" Grid.Row="1" Grid.RowSpan="2"   />
+
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>
