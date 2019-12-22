@@ -30,17 +30,17 @@ namespace CrystalSync
 
         private void settingConnectionServer_MenuItem_Click(object sender, RoutedEventArgs e)
         {
-            MysqlConnectionLocalWindow localWindow = new MysqlConnectionLocalWindow();
-            localWindow.ShowDialog();
+            MysqlConnectionServerWindow serverlWindow = new MysqlConnectionServerWindow();
+            serverlWindow.ShowDialog();
             
 
         }
 
         private void settingConnectionLocal_MenuItem_Click(object sender, RoutedEventArgs e)
         {
-            MysqlConnectionServerWindow serverWindow = new MysqlConnectionServerWindow();
+            MysqlConnectionLocalWindow localWindow = new MysqlConnectionLocalWindow();
 
-            serverWindow.ShowDialog();
+            localWindow.ShowDialog();
 
         }
 
@@ -345,6 +345,9 @@ namespace CrystalSync
             this.lastUpdateFromServerLabel.Content = "";
             this.countRowsLabel.Content = "";
             this.statSyncDataLabel.Content = "";
+
+            this.titleDataLocal.Content =   MysqlConnectionLocalSettings.Default["dbTitle"].ToString() +"<<LocalDB";
+            ;
 
         }
 

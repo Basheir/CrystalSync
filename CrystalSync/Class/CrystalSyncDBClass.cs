@@ -5,6 +5,7 @@ using System.Windows;
 using MySql.Data.MySqlClient;
 using CrystalSync.Setting;
 using System.Windows.Controls;
+using System.Windows.Threading;
 
 //https://github.com/wickyaswal/c-sharp-mysql-database-class
 
@@ -12,7 +13,7 @@ namespace CrystalSync.Class
 {
     class CrystalSyncDBClass {
 
-    
+
 
         public void syncDataServer()
         {
@@ -21,14 +22,13 @@ namespace CrystalSync.Class
             MysqlConnectionClass connClass = new MysqlConnectionClass(conStr);
             IList<ItemClass> items = new List<ItemClass>();
 
-
-
             DataTable lists = connClass.query("SELECT it_name, it_code, it_balance_qty FROM tbl_item LEFT JOIN tbl_item_balance ON tbl_item_balance.it_balance_item_id = tbl_item.it_id");
 
             foreach (DataRow rows in lists.Rows)
             {
-
+                
                 items.Add(new ItemClass (rows["it_name"].ToString(), rows["it_code"].ToString(), rows["it_balance_qty"].ToString()));
+
 
             }
 
@@ -90,11 +90,6 @@ namespace CrystalSync.Class
 
             return q;
         }
-
-
-
-
-
 
 
 

@@ -8,7 +8,7 @@
         xmlns:fa="http://schemas.fontawesome.io/icons/"
 
         mc:Ignorable="d"
-        Title="اعداد اتصال انترنت" Height="295" Width="268.403" ResizeMode="NoResize" Loaded="Window_Loaded" WindowStartupLocation="CenterOwner">
+        Title="اعداد سيرفر انترنت" Height="295" Width="268.403" ResizeMode="NoResize" Loaded="Window_Loaded" WindowStartupLocation="CenterOwner">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>

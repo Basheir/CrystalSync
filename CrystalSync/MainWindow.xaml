@@ -7,17 +7,13 @@
         xmlns:fa="http://schemas.fontawesome.io/icons/"
 
         mc:Ignorable="d"
-        Title="CrystalSync" Height="450" Width="800" Left="Auto" Icon="crystalSync.png" FlowDirection="RightToLeft" Loaded="Window_Loaded"  WindowStartupLocation="CenterScreen">
+        Title="CrystalSync" Height="450" Width="800" Left="Auto" Icon="images/crystalSync.png" FlowDirection="RightToLeft" Loaded="Window_Loaded"  WindowStartupLocation="CenterScreen">
     <Grid Name="parentGrid">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="49*"/>
-            <ColumnDefinition Width="50*"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="7*"/>
-            <RowDefinition Height="8*"/>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="40"/>
             <RowDefinition Height="60*"/>
-            <RowDefinition Height="9*"/>
+            <RowDefinition Height="35"/>
         </Grid.RowDefinitions>
 
         <Menu Height="31" VerticalAlignment="Top" Grid.Row="0" Grid.ColumnSpan="2">
@@ -39,13 +35,35 @@
         </Menu>
         <DataGrid Name="myGrids" Grid.Row="2" LoadingRow="myGrids_LoadingRow" Grid.ColumnSpan="2" HorizontalGridLinesBrush="#FFE6E0E0" VerticalGridLinesBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" RowHeight="25"/>
 
-        <StatusBar Height="47" VerticalAlignment="Bottom" Margin="0,0,0,-4" Grid.Row="3" Grid.ColumnSpan="2">
-            <fa:ImageAwesome Icon="download" Spin="False" Height="12" Width="12" SpinDuration="10" MouseDown="Button_Click_1" Cursor="Hand"/>
+        <StatusBar   Height="35"  Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center"  Grid.Column="5">
+            
+            
+            <StatusBarItem Width="30">
+                <fa:ImageAwesome Icon="download" Spin="False" Height="15" Width="15" SpinDuration="10" MouseDown="Button_Click_1" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="LightGray"/>
+            </StatusBarItem>
+
+           
+
+            <StatusBarItem Width="Auto">
+                <Label x:Name="lastUpdateFromServerLabel"  Content="lastUpdateFromServer" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StatusBarItem>
 
 
-            <Label x:Name="lastUpdateFromServerLabel"  Content="lastUpdateFromServer" />
-            <Label x:Name="countRowsLabel"  Content="countRowsLabel" />
-            <Label x:Name="statSyncDataLabel"  Content="countRowsLabel" />
+            <StatusBarItem Width="Auto">
+                <Label x:Name="countRowsLabel"  Content="countRowsLabel" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            </StatusBarItem>
+
+
+            <Separator Width="1" Grid.ColumnSpan="2" Grid.Column="0" HorizontalAlignment="Right"/>
+            <StatusBarItem Width="Auto">
+                <Label x:Name="statSyncDataLabel"  Content="statSyncDataLabel" VerticalAlignment="Center" HorizontalAlignment="Right" />
+            </StatusBarItem>
+
+            <Separator Width="1" Grid.ColumnSpan="2" Grid.Column="0" HorizontalAlignment="Right"/>
+            <StatusBarItem Width="200" HorizontalAlignment="Right" >
+                <Label x:Name="titleDataLocal"  Content="titleDataLocal"  Foreground="Gray" />
+            </StatusBarItem>
+            
 
         </StatusBar>
         <Grid x:Name="serachGrid" Height="25" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,7" >
