@@ -47,10 +47,16 @@ namespace CrystalSync.SettingForm
 
             ColorSelectSettings.Default["maxNumber"] = maxNumber.Value.ToString();
             ColorSelectSettings.Default["color"] = color.CurrentColor.ToString();
+
+
+            ColorSelectSettings.Default["fontSize"] = fontSizeTxt.Value.ToString();
             ColorSelectSettings.Default.Save();
 
 
             Console.WriteLine(color.CurrentColor);
+
+
+            ((MainWindow)Application.Current.MainWindow).myGrids.Items.Refresh();
 
             this.Close();
 
@@ -64,6 +70,9 @@ namespace CrystalSync.SettingForm
                 int numVal = int.Parse(ColorSelectSettings.Default["maxNumber"].ToString());
                 maxNumber.Value = numVal;
 
+
+                int ftSize = int.Parse(ColorSelectSettings.Default["fontSize"].ToString());
+                fontSizeTxt.Value = ftSize;
             }
             finally
             {

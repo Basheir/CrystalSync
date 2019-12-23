@@ -8,5 +8,8 @@
     <Setting Name="color" Type="System.String" Scope="User">
       <Value Profile="(Default)">#FFFF0000</Value>
     </Setting>
+    <Setting Name="fontSize" Type="System.String" Scope="User">
+      <Value Profile="(Default)">13</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

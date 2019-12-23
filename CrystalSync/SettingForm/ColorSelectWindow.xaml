@@ -7,26 +7,30 @@
         xmlns:oniqys="http://schemas.oniqys.com/wpf/controls"
         xmlns:CustomWPFColorPicker="clr-namespace:CustomWPFColorPicker;assembly=CustomWPFColorPicker"
         mc:Ignorable="d"
-        Title="اعدادت اللون" Height="155" Width="258" ResizeMode="NoResize"  WindowStartupLocation="CenterOwner" ShowInTaskbar="False" Topmost="True" Loaded="Window_Loaded" >
+        Title="اعدادت اللون" Height="180" Width="208" ResizeMode="NoResize"  WindowStartupLocation="CenterOwner" ShowInTaskbar="False" Topmost="True" Loaded="Window_Loaded" >
     <Grid Margin="5,5,5,5">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="45*"/>
                 <RowDefinition Height="40*"/>
                 <RowDefinition Height="32*"/>
+                <RowDefinition Height="32*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="65*"/>
                 <ColumnDefinition Width="46*"/>
             </Grid.ColumnDefinitions>
-            <ControlLib:NumericUpDown Name="maxNumber" MinValue="0" MaxValue="999999" Increment="1" FontSize="14"  Height="30" />
 
+            <ControlLib:NumericUpDown Name="maxNumber" MinValue="0" MaxValue="999999" Increment="1" FontSize="14" Width="80"  Height="25"  />
             <Label Content="اصغر من" Grid.Column="1"/>
-            <Button  Content="حفظ" HorizontalAlignment="Left" VerticalAlignment="Top" Width="65" Margin="35,6,0,0" Click="SaveConnectionBtn_Click" Grid.Row="2" Height="22" />
 
+            <Label Content="اختيار اللون" Grid.Column="1" Grid.Row="1"/>
+            <CustomWPFColorPicker:ColorPickerControlView x:Name="ForeColorPicker"  Width="80" Height="25" Margin="-2,0,2,27" Grid.Row="1" Grid.RowSpan="2"   />
 
+            <ControlLib:NumericUpDown Name="fontSizeTxt" MinValue="10" MaxValue="72" Increment="1" FontSize="14"  Width="80" Height="25" Grid.Row="2" />
+            <Label Content=" حجم النص" Grid.Column="1" Grid.Row="2"/>
 
-            <CustomWPFColorPicker:ColorPickerControlView x:Name="ForeColorPicker" Margin="-2,0,2,27" Grid.Row="1" Grid.RowSpan="2"   />
+            <Button  Content="حفظ" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="65" Margin="35,6,0,0" Click="SaveConnectionBtn_Click" Grid.Row="3" Height="22" />
 
 
         </Grid>

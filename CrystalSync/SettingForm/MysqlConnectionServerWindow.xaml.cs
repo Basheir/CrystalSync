@@ -22,6 +22,8 @@ namespace CrystalSync.SettingForm
     /// </summary>
     public partial class MysqlConnectionServerWindow : Window
     {
+
+
         public MysqlConnectionServerWindow()
         {
             InitializeComponent();

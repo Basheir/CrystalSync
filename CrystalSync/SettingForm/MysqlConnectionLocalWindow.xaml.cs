@@ -31,6 +31,7 @@ namespace CrystalSync.SettingForm
 
 
         ComboboxItemFillClass itemFillClass = new ComboboxItemFillClass();
+        public MainWindow parentForm;
 
 
         //private ObservableCollection<States> states = new ObservableCollection<States>();
@@ -39,12 +40,14 @@ namespace CrystalSync.SettingForm
         {
             InitializeComponent();
 
+
+           
         }
 
-    
 
-       
- //حفظ الاعدادات
+
+
+        //حفظ الاعدادات
         private void saveConnectionSetting()
         {
 
@@ -60,9 +63,13 @@ namespace CrystalSync.SettingForm
             MysqlConnectionLocalSettings.Default["dbTitle"] = (dbListLocalComboBox.SelectedItem as ComboboxItemFillClass).Text.ToString();
 
             MysqlConnectionLocalSettings.Default.Save();
+
+            ((MainWindow)Application.Current.MainWindow).titleDataLocal.Content = MysqlConnectionLocalSettings.Default["dbTitle"];
+
+
         }
 
-       
+
         //جلب قواعد البيانات
         private void retriveDb_Button_Click(object sender, RoutedEventArgs e)
         {

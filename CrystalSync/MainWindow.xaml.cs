@@ -39,7 +39,6 @@ namespace CrystalSync
         private void settingConnectionLocal_MenuItem_Click(object sender, RoutedEventArgs e)
         {
             MysqlConnectionLocalWindow localWindow = new MysqlConnectionLocalWindow();
-
             localWindow.ShowDialog();
 
         }
@@ -56,9 +55,7 @@ namespace CrystalSync
         {
 
             CrystalSyncDBClass sync = new CrystalSyncDBClass();
-
             sync.syncDataServer();
-
             this.reloadDataServer();
 
 
@@ -82,10 +79,8 @@ namespace CrystalSync
                 ConnectionStringClass connStr = new ConnectionStringClass();
                 string conStr = connStr.connectionServerSetting();
                 MysqlConnectionClass connClass = new MysqlConnectionClass(conStr);
-
-                if (connClass.isConnected)
-                {
-
+                if (connClass.isConnected){
+                
                     this.myGridDataTable = connClass.query("Select it_name,FORMAT(it_balance_qty, 2) as qty  from items");
                     this.myGrids.ItemsSource = myGridDataTable.DefaultView;
                     this.myGrids.Columns[0].Header = "اسم الماد";
@@ -125,7 +120,16 @@ namespace CrystalSync
 
                 spinnerLoading.Visibility = Visibility.Hidden;
 
+                try
+                {
 
+                    int ftSize = int.Parse(ColorSelectSettings.Default["fontSize"].ToString());
+                    this.myGrids.FontSize = ftSize;
+                    this.myGrids.Items.Refresh();
+                }
+                finally
+                {
+                }
 
             }), DispatcherPriority.ContextIdle);
 
@@ -145,6 +149,15 @@ namespace CrystalSync
             typeSearchComboBox.SelectedIndex = 0;
 
             reloadDataServer();
+
+
+
+
+           
+            
+
+
+
 
         }
 

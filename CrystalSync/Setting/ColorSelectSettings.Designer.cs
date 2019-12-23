@@ -46,5 +46,17 @@ namespace CrystalSync.Setting {
                 this["color"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("13")]
+        public string fontSize {
+            get {
+                return ((string)(this["fontSize"]));
+            }
+            set {
+                this["fontSize"] = value;
+            }
+        }
     }
 }
