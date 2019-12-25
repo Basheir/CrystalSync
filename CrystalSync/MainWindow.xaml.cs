@@ -104,8 +104,8 @@ namespace CrystalSync
                     DateTime date2 = DateTime.Parse(lastUpdate);
 
                     this.lastUpdateFromServerLabel.Content = string.Format("اخر تحديث من سيرفر : {0}", getRelativeDateTime(date2));
-
-
+                    this.lastUpdateFromServerLabel.ToolTip = date2;
+                    this.clockIconsLastUpdate.ToolTip = date2;
                 }
                 else
                 {

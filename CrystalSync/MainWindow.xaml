@@ -39,14 +39,16 @@
             
             
             <StatusBarItem Width="30">
-                <fa:ImageAwesome Icon="download" Spin="False" Height="15" Width="15" SpinDuration="10" MouseDown="Button_Click_1" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="LightGray"/>
+                <fa:ImageAwesome Icon="download" Spin="False" Height="15" Width="15" SpinDuration="10" MouseDown="Button_Click_1" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"/>
             </StatusBarItem>
 
            
 
             <StatusBarItem Width="Auto">
                 <Label x:Name="lastUpdateFromServerLabel"  Content="lastUpdateFromServer" HorizontalAlignment="Center" VerticalAlignment="Center" />
+
             </StatusBarItem>
+                <fa:ImageAwesome Name="clockIconsLastUpdate" Icon="ClockOutline" Spin="False" Height="15" Width="15" SpinDuration="10" MouseDown="Button_Click_1" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"/>
 
 
             <StatusBarItem Width="Auto">
