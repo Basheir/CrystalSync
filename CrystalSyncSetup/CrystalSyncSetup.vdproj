@@ -4,9 +4,9 @@
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
 "ProjectName" = "8:CrystalSyncSetup"
-"LanguageId" = "3:1033"
+"LanguageId" = "3:0"
 "CodePage" = "3:1252"
-"UILanguageId" = "3:1033"
+"UILanguageId" = "3:0"
 "SccProjectName" = "8:"
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
@@ -21,20 +21,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_047169CB0830466FB3A18B4319500071"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_067DE8238D9E8FF660BFEBE8FCA645A8"
         "OwnerKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0754E7FD9A7140A0A95FE768390B81FE"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -51,38 +39,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0FE301F182724780980A4979C4C6A58E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1728A7DABAB64A0FA021F4862DAF81D4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_23F75EB1D41BCDBEFAC36258D2BFA52D"
         "OwnerKey" = "8:_92F4869C96214CC1B76097BD2511EE5C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2E318A0AEBC94369BB3649DDCA22B26B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_325B30BC2B666DAE994FC3BB795ADD27"
         "OwnerKey" = "8:_E520E72B4DADA4D2BEB94A4EB6E98A50"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_325B30BC2B666DAE994FC3BB795ADD27"
-        "OwnerKey" = "8:_1728A7DABAB64A0FA021F4862DAF81D4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -123,38 +87,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5453FC7CF1EFD81899D2C04448899137"
-        "OwnerKey" = "8:_8D96FFE1A98D437E870F896E495F48F0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5832968B98934ED881C79E8DFBDE743F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_5C572A8CD491C589CAD3A058741524CE"
         "OwnerKey" = "8:_674887DBDA824CC9988DF12CEDAD1807"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6056AF80C3374950B03F254A1DCDF3D5"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_62D7E70413C94ED5B8854C5352A3932D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6412707D086B4C6D82117DC54C82741A"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -165,19 +99,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_66539441C35292A0C7DAB464483A15AF"
-        "OwnerKey" = "8:_8D96FFE1A98D437E870F896E495F48F0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_674887DBDA824CC9988DF12CEDAD1807"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_67A9D48803F44D42B8F479915862A6CF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -185,18 +107,6 @@
         {
         "MsmKey" = "8:_6A4816510AA63D8A892CE650283F262A"
         "OwnerKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6D9FD34235464FD3BACE5F060960FADF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_78D4520509714480AE7F8C3B7ABF06D1"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -213,24 +123,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8D96FFE1A98D437E870F896E495F48F0"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
-        "OwnerKey" = "8:_914518F6E3814CF0A10A83A4AE84F69E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
-        "OwnerKey" = "8:_D687303E90B44E078E14FA9ED047C508"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
         "OwnerKey" = "8:_B44F196C16F278F4F529291081DBF060"
         "MsmSig" = "8:_UNDEFINED"
@@ -239,18 +131,6 @@
         {
         "MsmKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
         "OwnerKey" = "8:_23F75EB1D41BCDBEFAC36258D2BFA52D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_903596A93C7949C5BAB5481DEA855F96"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_914518F6E3814CF0A10A83A4AE84F69E"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -273,20 +153,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_94E1CB0E6C8C4EA6BF6D13BBCF1941C9"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_94FE0F084D2D4ED8B15882E77B8C8661"
         "OwnerKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9F1A4572BD1E421B852004AA9FAD785E"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -303,20 +171,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B04F571C95FB4EEF93E156019D32CB07"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_B44F196C16F278F4F529291081DBF060"
         "OwnerKey" = "8:_23F75EB1D41BCDBEFAC36258D2BFA52D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B44F196C16F278F4F529291081DBF060"
-        "OwnerKey" = "8:_D687303E90B44E078E14FA9ED047C508"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -339,12 +195,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C34B372F35DF4CD9A5543784E9E91CFF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C6A5F08E3B1DDBFCC6CCC0669097374E"
         "OwnerKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
         "MsmSig" = "8:_UNDEFINED"
@@ -363,20 +213,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D687303E90B44E078E14FA9ED047C508"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_D8CB70A2D47BB87A24DE2E8130C0D360"
         "OwnerKey" = "8:_23F75EB1D41BCDBEFAC36258D2BFA52D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D8CB70A2D47BB87A24DE2E8130C0D360"
-        "OwnerKey" = "8:_D687303E90B44E078E14FA9ED047C508"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -393,26 +231,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DE9D142987562C6B59CC8F941A7F7386"
-        "OwnerKey" = "8:_8D96FFE1A98D437E870F896E495F48F0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E4FD37831FFC4E5B9E9868B74EB81104"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_E520E72B4DADA4D2BEB94A4EB6E98A50"
         "OwnerKey" = "8:_23F75EB1D41BCDBEFAC36258D2BFA52D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E520E72B4DADA4D2BEB94A4EB6E98A50"
-        "OwnerKey" = "8:_D687303E90B44E078E14FA9ED047C508"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -423,86 +243,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EE2C1AEFDE1847309B2BAACD8E52681D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FD9E279E818944C7898961D6FA041E39"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FFE15A5525EC42C8BEFA96C916C0B060"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6412707D086B4C6D82117DC54C82741A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FFE15A5525EC42C8BEFA96C916C0B060"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_903596A93C7949C5BAB5481DEA855F96"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9F1A4572BD1E421B852004AA9FAD785E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_92F4869C96214CC1B76097BD2511EE5C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_325B30BC2B666DAE994FC3BB795ADD27"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D8CB70A2D47BB87A24DE2E8130C0D360"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6A4816510AA63D8A892CE650283F262A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CD2AA8CADE7D7C599FCDFB9F0F52C66B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_94FE0F084D2D4ED8B15882E77B8C8661"
+        "OwnerKey" = "8:_DE9D142987562C6B59CC8F941A7F7386"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -514,37 +256,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0EABA29E959F60D21D9003AFF1DE6882"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A3CA84BD1BCE8611BC5A06D154E5720D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A6CAD54F7A97FA3767176A4F821145CA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3354540D5950A70E1F60719AF5C5EBE1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3DD423FD449D2F09B6387B2D652870B7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0239D20F60BB94862D10B452D74A24A6"
+        "OwnerKey" = "8:_CD2AA8CADE7D7C599FCDFB9F0F52C66B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -562,13 +274,37 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4769A9FDA44F94C6427381A5B915F39B"
+        "OwnerKey" = "8:_BC369ABEA38998E2701D87C0A27D5566"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_067DE8238D9E8FF660BFEBE8FCA645A8"
+        "OwnerKey" = "8:_A6CAD54F7A97FA3767176A4F821145CA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A3CA84BD1BCE8611BC5A06D154E5720D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_94FE0F084D2D4ED8B15882E77B8C8661"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_92F4869C96214CC1B76097BD2511EE5C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_D8CB70A2D47BB87A24DE2E8130C0D360"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -580,49 +316,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BC369ABEA38998E2701D87C0A27D5566"
+        "OwnerKey" = "8:_8F968C72500C20AEA071D2F2BF9FF8D1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_67A9D48803F44D42B8F479915862A6CF"
+        "OwnerKey" = "8:_871DAC66F9EB427AC87B3C401DC723AA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_78D4520509714480AE7F8C3B7ABF06D1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B04F571C95FB4EEF93E156019D32CB07"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8D96FFE1A98D437E870F896E495F48F0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E4FD37831FFC4E5B9E9868B74EB81104"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6D9FD34235464FD3BACE5F060960FADF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0754E7FD9A7140A0A95FE768390B81FE"
+        "OwnerKey" = "8:_6A4816510AA63D8A892CE650283F262A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -652,7 +358,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_871DAC66F9EB427AC87B3C401DC723AA"
+        "OwnerKey" = "8:_66539441C35292A0C7DAB464483A15AF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -664,13 +370,43 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_66539441C35292A0C7DAB464483A15AF"
+        "OwnerKey" = "8:_4769A9FDA44F94C6427381A5B915F39B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DE9D142987562C6B59CC8F941A7F7386"
+        "OwnerKey" = "8:_3DD423FD449D2F09B6387B2D652870B7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3354540D5950A70E1F60719AF5C5EBE1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_325B30BC2B666DAE994FC3BB795ADD27"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0EABA29E959F60D21D9003AFF1DE6882"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_067DE8238D9E8FF660BFEBE8FCA645A8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0239D20F60BB94862D10B452D74A24A6"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -691,6 +427,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -707,6 +459,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -767,26 +527,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_047169CB0830466FB3A18B4319500071"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\MySql.Data.xml"
-            "TargetName" = "8:MySql.Data.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_067DE8238D9E8FF660BFEBE8FCA645A8"
             {
             "AssemblyRegister" = "3:1"
@@ -816,37 +556,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0754E7FD9A7140A0A95FE768390B81FE"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:CustomWPFColorPicker, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_0754E7FD9A7140A0A95FE768390B81FE"
-                    {
-                    "Name" = "8:CustomWPFColorPicker.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\CustomWPFColorPicker.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C789EA89D3941959A622F9783D7106F"
@@ -900,57 +609,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0FE301F182724780980A4979C4C6A58E"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\CustomWPFColorPicker.pdb"
-            "TargetName" = "8:CustomWPFColorPicker.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1728A7DABAB64A0FA021F4862DAF81D4"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_1728A7DABAB64A0FA021F4862DAF81D4"
-                    {
-                    "Name" = "8:System.Runtime.CompilerServices.Unsafe.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\System.Runtime.CompilerServices.Unsafe.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_23F75EB1D41BCDBEFAC36258D2BFA52D"
             {
             "AssemblyRegister" = "3:1"
@@ -980,26 +638,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2E318A0AEBC94369BB3649DDCA22B26B"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\FontAwesome.WPF.xml"
-            "TargetName" = "8:FontAwesome.WPF.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_325B30BC2B666DAE994FC3BB795ADD27"
@@ -1197,26 +835,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5832968B98934ED881C79E8DFBDE743F"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\System.Runtime.CompilerServices.Unsafe.xml"
-            "TargetName" = "8:System.Runtime.CompilerServices.Unsafe.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5C572A8CD491C589CAD3A058741524CE"
             {
             "AssemblyRegister" = "3:1"
@@ -1246,77 +864,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6056AF80C3374950B03F254A1DCDF3D5"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\System.Diagnostics.DiagnosticSource.xml"
-            "TargetName" = "8:System.Diagnostics.DiagnosticSource.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62D7E70413C94ED5B8854C5352A3932D"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\WriteableBitmapEx.Wpf.xml"
-            "TargetName" = "8:WriteableBitmapEx.Wpf.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6412707D086B4C6D82117DC54C82741A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942"
-                "ScatterAssemblies"
-                {
-                    "_6412707D086B4C6D82117DC54C82741A"
-                    {
-                    "Name" = "8:BouncyCastle.Crypto.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\BouncyCastle.Crypto.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_66539441C35292A0C7DAB464483A15AF"
@@ -1381,37 +928,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_67A9D48803F44D42B8F479915862A6CF"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_67A9D48803F44D42B8F479915862A6CF"
-                    {
-                    "Name" = "8:Renci.SshNet.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\Renci.SshNet.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6A4816510AA63D8A892CE650283F262A"
             {
             "AssemblyRegister" = "3:1"
@@ -1441,68 +957,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6D9FD34235464FD3BACE5F060960FADF"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FontAwesome.WPF, Version=4.7.0.37774, Culture=neutral, PublicKeyToken=0758b07a11a4f466, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_6D9FD34235464FD3BACE5F060960FADF"
-                    {
-                    "Name" = "8:FontAwesome.WPF.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\FontAwesome.WPF.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_78D4520509714480AE7F8C3B7ABF06D1"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:PagedControl, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_78D4520509714480AE7F8C3B7ABF06D1"
-                    {
-                    "Name" = "8:PagedControl.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\PagedControl.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7FC7A87EC4B48334795DA4D12FF0EBF8"
@@ -1567,37 +1021,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8D96FFE1A98D437E870F896E495F48F0"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_8D96FFE1A98D437E870F896E495F48F0"
-                    {
-                    "Name" = "8:MySql.Data.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\MySql.Data.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8F968C72500C20AEA071D2F2BF9FF8D1"
             {
             "AssemblyRegister" = "3:1"
@@ -1627,68 +1050,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_903596A93C7949C5BAB5481DEA855F96"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WpfScreenHelper, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_903596A93C7949C5BAB5481DEA855F96"
-                    {
-                    "Name" = "8:WpfScreenHelper.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\WpfScreenHelper.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_914518F6E3814CF0A10A83A4AE84F69E"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_914518F6E3814CF0A10A83A4AE84F69E"
-                    {
-                    "Name" = "8:System.Buffers.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\System.Buffers.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9282483CF6505B45E79ADEF85D9A60C1"
@@ -1784,26 +1145,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_94E1CB0E6C8C4EA6BF6D13BBCF1941C9"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\System.Memory.xml"
-            "TargetName" = "8:System.Memory.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_94FE0F084D2D4ED8B15882E77B8C8661"
             {
             "AssemblyRegister" = "3:1"
@@ -1833,37 +1174,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9F1A4572BD1E421B852004AA9FAD785E"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_9F1A4572BD1E421B852004AA9FAD785E"
-                    {
-                    "Name" = "8:System.Numerics.Vectors.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\System.Numerics.Vectors.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A3CA84BD1BCE8611BC5A06D154E5720D"
@@ -1926,37 +1236,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B04F571C95FB4EEF93E156019D32CB07"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:NumericUpDown, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_B04F571C95FB4EEF93E156019D32CB07"
-                    {
-                    "Name" = "8:NumericUpDown.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\NumericUpDown.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B44F196C16F278F4F529291081DBF060"
@@ -2052,26 +1331,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C34B372F35DF4CD9A5543784E9E91CFF"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\WriteableBitmapEx.Wpf.pdb"
-            "TargetName" = "8:WriteableBitmapEx.Wpf.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C6A5F08E3B1DDBFCC6CCC0669097374E"
             {
             "AssemblyRegister" = "3:1"
@@ -2138,37 +1397,6 @@
             {
             "SourcePath" = "8:C:\\Users\\Account\\Documents\\images\\crystalSync.ico"
             "TargetName" = "8:crystalSync.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D687303E90B44E078E14FA9ED047C508"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_D687303E90B44E078E14FA9ED047C508"
-                    {
-                    "Name" = "8:System.Memory.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\System.Memory.dll"
-            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
             "Condition" = "8:"
@@ -2278,37 +1506,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E4FD37831FFC4E5B9E9868B74EB81104"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_E4FD37831FFC4E5B9E9868B74EB81104"
-                    {
-                    "Name" = "8:Google.Protobuf.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\Google.Protobuf.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E520E72B4DADA4D2BEB94A4EB6E98A50"
             {
             "AssemblyRegister" = "3:1"
@@ -2360,77 +1557,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EE2C1AEFDE1847309B2BAACD8E52681D"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\CrystalSync.pdb"
-            "TargetName" = "8:CrystalSync.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FD9E279E818944C7898961D6FA041E39"
-            {
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\System.Buffers.xml"
-            "TargetName" = "8:System.Buffers.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FFE15A5525EC42C8BEFA96C916C0B060"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WriteableBitmapEx.Wpf, Version=1.6.3.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_FFE15A5525EC42C8BEFA96C916C0B060"
-                    {
-                    "Name" = "8:WriteableBitmapEx.Wpf.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CrystalSync\\bin\\Debug\\WriteableBitmapEx.Wpf.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_00D9818479CB441E80AFD1FC676EDF37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -2439,7 +1565,7 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_00D9818479CB441E80AFD1FC676EDF37"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -2480,7 +1606,7 @@
         }
         "MsiBootstrapper"
         {
-        "LangId" = "3:1033"
+        "LangId" = "3:0"
         "RequiresElevation" = "11:FALSE"
         }
         "Product"
@@ -2488,7 +1614,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:CrystalSync"
         "ProductCode" = "8:{08F8D372-D0BE-4FC6-93C7-E319D4B92A67}"
-        "PackageCode" = "8:{DC9FA292-BC17-4771-9BE1-0E8E35887DD3}"
+        "PackageCode" = "8:{EFD14E44-B07B-45BB-937C-1AA392B57671}"
         "UpgradeCode" = "8:{1F1F8CB3-4027-4349-8D43-68B91CA8AEA0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -2496,7 +1622,7 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Basheir Hassan"
+        "Manufacturer" = "8:CrystalSync"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:CrystalSyncSetup"
@@ -2610,7 +1736,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0C3ADA51368B439FBB0C4FEF840E8891"
             {
-            "Name" = "8:CrystalSync.exe"
+            "Name" = "8:CrystalSync"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -2624,7 +1750,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5A7C5C8BB5E042F191C8B4716651E4D4"
             {
-            "Name" = "8:CrystalSync.exe"
+            "Name" = "8:CrystalSync"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -2737,8 +1863,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1203"
+                            "Setting" = "3:2"
+                            "Value" = "8:اعداد تطبيق"
                             "DefaultValue" = "8:#1203"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -2814,7 +1940,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_D1EEA021A2284181AE4C32FCDD049D15"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -2838,8 +1965,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1203"
+                            "Setting" = "3:2"
+                            "Value" = "8:اعداد تطبيق [ProductName]"
                             "DefaultValue" = "8:#1203"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -2862,7 +1989,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_D1EEA021A2284181AE4C32FCDD049D15"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -2884,7 +2012,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_D1EEA021A2284181AE4C32FCDD049D15"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
