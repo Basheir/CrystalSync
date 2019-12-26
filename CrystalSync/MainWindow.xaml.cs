@@ -26,6 +26,9 @@ namespace CrystalSync
         public MainWindow()
         {
             InitializeComponent();
+
+          
+
         }
 
         private void settingConnectionServer_MenuItem_Click(object sender, RoutedEventArgs e)
@@ -139,16 +142,32 @@ namespace CrystalSync
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
+
             resetStatAlbele();
 
 
 
-            itemFillClass.appendItem(typeSearchComboBox, "الكل","all");
-            itemFillClass.appendItem(typeSearchComboBox, "اسم المادة","name");
-            itemFillClass.appendItem(typeSearchComboBox, "الكمية","qty");
-            typeSearchComboBox.SelectedIndex = 0;
+            if (CrystalSync.Properties.Settings.Default["firstStart"].ToString() == "0")
+            {
+               MessageBox.Show("قم باعداد الاتصال  بالسيرفر!");
+                MysqlConnectionServerWindow serverlWindow = new MysqlConnectionServerWindow();
+                serverlWindow.ShowDialog();
+            }
+            {
+                itemFillClass.appendItem(typeSearchComboBox, "الكل", "all");
+                itemFillClass.appendItem(typeSearchComboBox, "اسم المادة", "name");
+                itemFillClass.appendItem(typeSearchComboBox, "الكمية", "qty");
+                typeSearchComboBox.SelectedIndex = 0;
+                reloadDataServer();
 
-            reloadDataServer();
+            }
+
+
+           
+
+
+
+   
 
 
 

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrystalSync", "CrystalSync\CrystalSync.csproj", "{859FD8B1-D90E-462D-9C18-2126FF91A933}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CrystalSyncSetup", "CrystalSyncSetup\CrystalSyncSetup.vdproj", "{ED321165-0731-4C41-BF0E-19ADDA992C3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{859FD8B1-D90E-462D-9C18-2126FF91A933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{859FD8B1-D90E-462D-9C18-2126FF91A933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{859FD8B1-D90E-462D-9C18-2126FF91A933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED321165-0731-4C41-BF0E-19ADDA992C3F}.Debug|Any CPU.ActiveCfg = Debug
+		{ED321165-0731-4C41-BF0E-19ADDA992C3F}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

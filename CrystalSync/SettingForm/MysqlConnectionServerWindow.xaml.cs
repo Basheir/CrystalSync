@@ -71,6 +71,11 @@ namespace CrystalSync.SettingForm
             MysqlConnectionServerSettings.Default["dbPassword"] = passwordTxt.Text;
             MysqlConnectionServerSettings.Default["dbPort"] = portTxt.Value.ToString();
             MysqlConnectionServerSettings.Default.Save();
+
+            // حفظ تم اعددا الاتصال بالسيرفر بنجاح
+            CrystalSync.Properties.Settings.Default["firstStart"] = "1";
+            CrystalSync.Properties.Settings.Default.Save();
+
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
