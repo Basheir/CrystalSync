@@ -33,16 +33,18 @@ namespace CrystalSync
 
         private void settingConnectionServer_MenuItem_Click(object sender, RoutedEventArgs e)
         {
-            MysqlConnectionServerWindow serverlWindow = new MysqlConnectionServerWindow();
-            serverlWindow.ShowDialog();
-            
+            WizardSettingWindow wizWindow = new WizardSettingWindow();
+            wizWindow.ShowDialog();
+
+
+
 
         }
 
         private void settingConnectionLocal_MenuItem_Click(object sender, RoutedEventArgs e)
         {
-            MysqlConnectionLocalWindow localWindow = new MysqlConnectionLocalWindow();
-            localWindow.ShowDialog();
+            WizardSettingWindow wizWindow = new WizardSettingWindow();
+            wizWindow.ShowDialog();
 
         }
 
@@ -115,9 +117,8 @@ namespace CrystalSync
 
                     resetStatAlbele();
 
-                    MysqlConnectionServerWindow serverWindow = new MysqlConnectionServerWindow();
-
-                    serverWindow.ShowDialog();
+                    WizardSettingWindow wizWindow = new WizardSettingWindow();
+                    wizWindow.ShowDialog();
 
                 }
 
@@ -149,9 +150,14 @@ namespace CrystalSync
 
             if (CrystalSync.Properties.Settings.Default["firstStart"].ToString() == "0")
             {
-               MessageBox.Show("قم باعداد الاتصال  بالسيرفر!");
-                MysqlConnectionServerWindow serverlWindow = new MysqlConnectionServerWindow();
-                serverlWindow.ShowDialog();
+               //MessageBox.Show("قم باعداد الاتصال  بالسيرفر!");
+               // MysqlConnectionServerWindow serverlWindow = new MysqlConnectionServerWindow();
+               // serverlWindow.ShowDialog();
+
+
+                WizardSettingWindow wizardForm = new WizardSettingWindow();
+
+                wizardForm.ShowDialog();
             }
             {
                 itemFillClass.appendItem(typeSearchComboBox, "الكل", "all");
