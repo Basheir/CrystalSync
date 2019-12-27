@@ -20,17 +20,14 @@
             <MenuItem Header="ادوات">
                 <MenuItem Header="مزامنة البيانات مع السيرفر" Click="ResyncDataServer_MenuItem_Click"/>
                 <MenuItem Header="اعدادات اللون" Click="showColorSetting_MenuItem_Click"/>
+                <MenuItem Header="معالج الاتصال" Click="settingConnectionServer_MenuItem_Click"/>
 
             </MenuItem>
             <MenuItem Header="اعدادات سيرفر انترنت">
-                <MenuItem Header="اعدادات" Click="settingConnectionServer_MenuItem_Click"/>
                 <MenuItem Header="تحميل بيانات " Click="MenuItem_Click_1"/>
                 <MenuItem Header="مسح بيانات " Click="MenuItem_Click_2"/>
             </MenuItem>
-            <MenuItem Header="اعدادات سيرفر محلي">
-                <MenuItem Header="اعداد الاتصال " Click="settingConnectionLocal_MenuItem_Click"/>
-
-            </MenuItem>
+           
 
         </Menu>
         <DataGrid Name="myGrids" Grid.Row="2" LoadingRow="myGrids_LoadingRow" Grid.ColumnSpan="2" HorizontalGridLinesBrush="#FFE6E0E0" VerticalGridLinesBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" RowHeight="25"/>

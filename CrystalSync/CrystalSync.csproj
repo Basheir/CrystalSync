@@ -256,7 +256,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>MysqlConnectionLocalSettings.settings</DependentUpon>
     </Compile>
-    <Compile Include="WizardSettingWindow.xaml.cs">
+    <Compile Include="SettingForm\WizardSettingWindow.xaml.cs">
       <DependentUpon>WizardSettingWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
@@ -275,7 +275,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="WizardSettingWindow.xaml">
+    <Page Include="SettingForm\WizardSettingWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

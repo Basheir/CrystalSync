@@ -41,13 +41,6 @@ namespace CrystalSync
 
         }
 
-        private void settingConnectionLocal_MenuItem_Click(object sender, RoutedEventArgs e)
-        {
-            WizardSettingWindow wizWindow = new WizardSettingWindow();
-            wizWindow.ShowDialog();
-
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string dbServer = MysqlConnectionLocalSettings.Default["dbServer"].ToString();
@@ -150,10 +143,7 @@ namespace CrystalSync
 
             if (CrystalSync.Properties.Settings.Default["firstStart"].ToString() == "0")
             {
-               //MessageBox.Show("قم باعداد الاتصال  بالسيرفر!");
-               // MysqlConnectionServerWindow serverlWindow = new MysqlConnectionServerWindow();
-               // serverlWindow.ShowDialog();
-
+              
 
                 WizardSettingWindow wizardForm = new WizardSettingWindow();
 

@@ -1,0 +1,97 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CrystalSync"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:SettingForm="clr-namespace:CrystalSync.SettingForm"
+        xmlns:ControlLib="clr-namespace:ControlLib;assembly=NumericUpDown"
+        xmlns:fa="http://schemas.fontawesome.io/icons/" x:Class="CrystalSync.WizardSettingWindow"
+        mc:Ignorable="d"
+        Title="معالج الاتصال بقواعد البيانات" Height="450" Width="319" Loaded="Window_Loaded" FlowDirection="RightToLeft" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <xctk:Wizard FinishButtonClosesWindow="False" NextButtonContent="التالي&gt;" CancelButtonContent="الغاء" HelpButtonContent="تعليمات" BackButtonContent="للخلف" HelpButtonVisibility="Hidden" CancelButtonVisibility="Hidden" BackButtonVisibility="Visible" FinishButtonContent="انهاء">
+
+            <xctk:WizardPage x:Name="PageLocal" PageType="Blank" CanSelectNextPage="False"
+                                   Title="الاتصال بالسيرفر محلي"
+                                   Description=""
+                                   NextPage="{Binding ElementName=Page2}"
+                                   PreviousPage="{Binding ElementName=IntroPage}" CanCancel="False" CanHelp="False" CanFinish="False" CanSelectPreviousPage="True"  FinishButtonVisibility="Hidden">
+                <StackPanel Orientation="Vertical"  >
+                    <Label Content="معالج الاتصال بقاعدة البيانات - محلي"  Margin="0" HorizontalContentAlignment="Center" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+
+                    <Label Content="Server Local"  Margin="0"/>
+
+                    <TextBox x:Name="serverTxtL" Grid.Column="1" TextWrapping="Wrap" Text="" Margin="0"/>
+                    <Label Content="dbNameLocal" Margin="0"/>
+                    <ComboBox  x:Name="dbListLocalComboBoxL" IsEnabled="False" Grid.Column="1" Grid.Row="1" Margin="0"/>
+                    <Label Content="UserName Local" Margin="0"/>
+                    <TextBox x:Name="userNameTxtL" TextWrapping="Wrap" Text="" Grid.Column="1" Grid.Row="2" Margin="0"/>
+                    <Label Content="Password Local" Margin="0"/>
+                    <TextBox x:Name="passwordTxtL" TextWrapping="Wrap" Text="" Grid.Row="3" Grid.Column="1" Margin="0"/>
+
+                    <Label Content="Port Local" Grid.Column="0" Grid.Row="4" Margin="0" />
+                    <ControlLib:NumericUpDown x:Name="portTxtL" MinValue="0" MaxValue="9999" Increment="1" FontSize="14"   Width="Auto" Margin="0" />
+
+                    <Button Content="اتصال "  Click="retriveDbLocal_Button_Click" Margin="0,20,0,0"  />
+                    <fa:ImageAwesome x:Name="spinnerLoadingL" Icon="Spinner" Spin="True" SpinDuration="8"    Visibility="Hidden" Grid.Row="4" Margin="80,36,73,8" Grid.RowSpan="2" RenderTransformOrigin="-2.062,-0.769"  >
+                        <fa:ImageAwesome.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="132.623343"/>
+                                <TranslateTransform X="145.145" Y="50.53"/>
+                            </TransformGroup>
+                        </fa:ImageAwesome.RenderTransform>
+                    </fa:ImageAwesome>
+
+
+
+
+
+                </StackPanel>
+
+
+
+            </xctk:WizardPage>
+
+
+
+            <xctk:WizardPage x:Name="PageServer" PageType="Blank" 
+                                   Title="اعداد اتصال بالسيرفر انترنت"
+                                   Description="" CanCancel="False" CanHelp="False" CanSelectNextPage="False" CanFinish="True"  FinishButtonVisibility="Visible" HelpButtonVisibility="Hidden">
+
+                
+                <StackPanel>
+
+                    <Label Content="معالج الاتصال بقاعدة البيانات - انترنت"  Margin="0" HorizontalContentAlignment="Center" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+
+                    <Label Content="Server Server" />
+                    <TextBox Name="serverTxtS"  />
+                    
+                     <Label Content="dbName Server"/>
+                    <TextBox Name="dbNameTxtS" />
+                    
+                    <Label Content="UserName Server"/>
+                    <TextBox Name="userNameTxtS"/>
+                    
+                    
+                    <Label Content="Password Server"  />
+                    <TextBox Name="passwordTxtS"/>
+                    
+                    <Label Content="Port Server" />
+                    <ControlLib:NumericUpDown Name="portTxtS"  MinValue="0" MaxValue="9999"   Increment="1" FontSize="14"  Width="Auto"  Height="25 " />
+
+
+                    <Button Content="اتصال"  Click="saveConnectionServer_Button_Click"  Margin="0,10,0,0" />
+                    <fa:ImageAwesome Name="spinnerLoadingS" Icon="Spinner" Spin="True" SpinDuration="8"  Height="15" Width="15"  Visibility="Hidden"  Margin="15,41,91,3" />
+                </StackPanel>
+
+
+            </xctk:WizardPage>
+
+
+        </xctk:Wizard>
+    </Grid>
+</Window>
