@@ -29,6 +29,9 @@ namespace CrystalSync
         }
 
 
+
+      
+
         //حفظ الاعدادات
         private void saveConnectionSettingLocal()
         {
@@ -73,7 +76,7 @@ namespace CrystalSync
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-
+            PageServer.CanFinish = false;
             serverTxtL.Text = MysqlConnectionLocalSettings.Default["dbServer"].ToString();
             userNameTxtL.Text = MysqlConnectionLocalSettings.Default["dbuserName"].ToString();
             passwordTxtL.Text = MysqlConnectionLocalSettings.Default["dbPassword"].ToString();
@@ -157,7 +160,7 @@ namespace CrystalSync
 
                     itemFillClassL.selectByText(dbListLocalComboBoxL, MysqlConnectionLocalSettings.Default["dbTitle"].ToString());
                     PageLocal.CanSelectNextPage = true;
-                    saveConnectionSettingLocal();
+                    //saveConnectionSettingLocal();
                 }
 
                 spinnerLoadingL.Visibility = Visibility.Hidden;
@@ -173,6 +176,7 @@ namespace CrystalSync
         {
 
             spinnerLoadingS.Visibility = Visibility.Visible;
+            
 
             Application.Current.Dispatcher.InvokeAsync(new Action(() =>
             {
@@ -187,7 +191,8 @@ namespace CrystalSync
                 if (connClass.isConnected)
                 {
                     MessageBox.Show("تم الاتصال بنجاح!");
-                    this.saveConnectionSettingServer();
+                    //this.saveConnectionSettingServer();
+                    PageServer.CanFinish = true;
                 }
 
                 spinnerLoadingS.Visibility = Visibility.Hidden;
@@ -199,9 +204,10 @@ namespace CrystalSync
 
         }
 
-
-
-
-
+        private void Wizard_Finish(object sender, Xceed.Wpf.Toolkit.Core.CancelRoutedEventArgs e)
+        {
+            this.saveConnectionSettingLocal();
+            this.saveConnectionSettingServer();
+        }
     }
 }

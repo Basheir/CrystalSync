@@ -11,7 +11,7 @@
         mc:Ignorable="d"
         Title="معالج الاتصال بقواعد البيانات" Height="450" Width="319" Loaded="Window_Loaded" FlowDirection="RightToLeft" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
     <Grid>
-        <xctk:Wizard FinishButtonClosesWindow="False" NextButtonContent="التالي&gt;" CancelButtonContent="الغاء" HelpButtonContent="تعليمات" BackButtonContent="للخلف" HelpButtonVisibility="Hidden" CancelButtonVisibility="Hidden" BackButtonVisibility="Visible" FinishButtonContent="انهاء">
+        <xctk:Wizard Finish="Wizard_Finish" FinishButtonClosesWindow="False" NextButtonContent="التالي&gt;" CancelButtonContent="الغاء" HelpButtonContent="تعليمات" BackButtonContent="للخلف" HelpButtonVisibility="Hidden" CancelButtonVisibility="Hidden" BackButtonVisibility="Visible" FinishButtonContent="انهاء">
 
             <xctk:WizardPage x:Name="PageLocal" PageType="Blank" CanSelectNextPage="False"
                                    Title="الاتصال بالسيرفر محلي"
