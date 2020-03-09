@@ -13,7 +13,7 @@ namespace CrystalSync.Class
         public string formatConnection(string dbServer, string dbPort, string dbName, string dbuserName, string dbPassword)
         {
 
-            string str = String.Format("server={0};  Port={1}; database={2}; uid={3}; pwd={4};  Character Set=utf8; Convert Zero Datetime=True;", dbServer, dbPort, dbName, dbuserName, dbPassword);
+            string str = String.Format("server={0};  Port={1}; database={2}; uid={3}; pwd={4};  Character Set=utf8; Convert Zero Datetime=True; SslMode=None", dbServer, dbPort, dbName, dbuserName, dbPassword);
             return str;
         }
 
