@@ -52,6 +52,10 @@ namespace CrystalSync
             ((MainWindow)Application.Current.MainWindow).titleDataLocal.Content = MysqlConnectionLocalSettings.Default["dbTitle"];
 
 
+
+
+
+
         }
 
         private void saveConnectionSettingServer()
@@ -144,12 +148,24 @@ namespace CrystalSync
 
                 if (connClass.isConnected)
                 {
-                    MessageBox.Show("تم الاتصال بنجاح!");
+
+
+                    MessageBox.Show(string.Format(" {0} تم الاتصال بنجاح!", dbListLocalComboBoxL.Text.ToString()));
+
+
+                    MysqlConnectionLocalSettings.Default["dbTitle"] = dbListLocalComboBoxL.Text.ToString();
+                    MysqlConnectionLocalSettings.Default.Save();
+
+
 
                     DataTable lists = connClass.query("SELECT * FROM tbl_databases");
 
                     dbListLocalComboBoxL.Items.Clear();
                     dbListLocalComboBoxL.IsEnabled = true;
+                
+
+
+
                     foreach (DataRow rows in lists.Rows)
                     {
 
@@ -160,7 +176,7 @@ namespace CrystalSync
 
                     itemFillClassL.selectByText(dbListLocalComboBoxL, MysqlConnectionLocalSettings.Default["dbTitle"].ToString());
                     PageLocal.CanSelectNextPage = true;
-                    //saveConnectionSettingLocal();
+                    saveConnectionSettingLocal();
                 }
 
                 spinnerLoadingL.Visibility = Visibility.Hidden;

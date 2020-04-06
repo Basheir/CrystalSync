@@ -9,6 +9,8 @@ using CrystalSync.Class;
 using System.Data;
 using System.Windows.Threading;
 
+
+
 namespace CrystalSync
 {
     /// <summary>
@@ -25,6 +27,9 @@ namespace CrystalSync
 
         public MainWindow()
         {
+
+          
+
             InitializeComponent();
 
           
@@ -52,8 +57,12 @@ namespace CrystalSync
         private void ResyncDataServer_MenuItem_Click(object sender, RoutedEventArgs e)
         {
 
-            CrystalSyncDBClass sync = new CrystalSyncDBClass();
-            sync.syncDataServer();
+
+
+
+
+            //CrystalSyncDBClass sync = new CrystalSyncDBClass();
+            CrystalSyncDBClass.syncDataServer();
             this.reloadDataServer();
 
 
@@ -196,6 +205,9 @@ namespace CrystalSync
         {
 
 
+
+
+
             ColorSelectWindow colorWindow = new ColorSelectWindow();
 
             colorWindow.ShowDialog();
@@ -206,10 +218,10 @@ namespace CrystalSync
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
 
-            CrystalSyncDBClass cystalDB = new CrystalSyncDBClass();
+            //CrystalSyncDBClass cystalDB = new CrystalSyncDBClass();
 
 
-            int q = cystalDB.truncatDataServer();
+            int q = CrystalSyncDBClass.truncatDataServer();
 
 
             reloadDataServer();
@@ -378,7 +390,6 @@ namespace CrystalSync
             ;
 
         }
-
 
     }
 

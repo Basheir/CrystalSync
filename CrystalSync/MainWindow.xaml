@@ -60,7 +60,7 @@
 
             <Separator Width="1" Grid.ColumnSpan="2" Grid.Column="0" HorizontalAlignment="Right"/>
             <StatusBarItem Width="200" HorizontalAlignment="Right" >
-                <Label x:Name="titleDataLocal"  Content="titleDataLocal"  Foreground="Gray" />
+                <Label x:Name="titleDataLocal"  Content="titleDataLocal"  Foreground="Gray" Background="#FF59D195" />
             </StatusBarItem>
             
 

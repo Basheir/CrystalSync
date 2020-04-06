@@ -53,7 +53,7 @@ namespace CrystalSync.SettingForm
             ColorSelectSettings.Default.Save();
 
 
-            Console.WriteLine(color.CurrentColor);
+            //Console.WriteLine(color.CurrentColor);
 
 
             ((MainWindow)Application.Current.MainWindow).myGrids.Items.Refresh();
